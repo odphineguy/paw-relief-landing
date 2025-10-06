@@ -38,35 +38,19 @@ function Screenshots() {
           </p>
         </motion.div>
 
-        {/* Marquee - First row (left to right) */}
-        <div className="mb-16">
+        {/* Marquee with fade effect */}
+        <div className="relative">
+          {/* Fade overlays */}
+          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-blue-50 to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-blue-50 to-transparent z-10 pointer-events-none"></div>
+
           <Marquee className="py-6" pauseOnHover={true} repeat={3}>
             {screenshots.map((screenshot, index) => (
               <div key={`row1-${index}`} className="mx-4 inline-block">
                 <div className="w-full h-[520px] bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-                  <img 
-                    src={screenshot.image} 
-                    alt={screenshot.title} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="text-center mt-4">
-                  <h3 className="text-lg font-semibold text-gray-800">{screenshot.title}</h3>
-                </div>
-              </div>
-            ))}
-          </Marquee>
-        </div>
-        
-        {/* Marquee - Second row (right to left) */}
-        <div className="mb-16">
-          <Marquee className="py-6" reverse={true} pauseOnHover={true} repeat={3}>
-            {screenshots.slice().reverse().map((screenshot, index) => (
-              <div key={`row2-${index}`} className="mx-4 inline-block">
-                <div className="w-full h-[520px] bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
-                  <img 
-                    src={screenshot.image} 
-                    alt={screenshot.title} 
+                  <img
+                    src={screenshot.image}
+                    alt={screenshot.title}
                     className="w-full h-full object-cover"
                   />
                 </div>

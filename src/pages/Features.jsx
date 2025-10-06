@@ -110,8 +110,8 @@ function Features() {
                 className={`flex flex-col items-end text-right cursor-pointer ${activeFeature === feature.id ? 'scale-105' : ''}`}
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                whileHover={{ opacity: 1, scale: 1.05 }}
-                animate={{ opacity: activeFeature === feature.id ? 1 : 0.8 }}
+                whileHover={{ opacity: 1, scale: 1.05, transition: { duration: 0.15 } }}
+                animate={{ opacity: activeFeature === feature.id ? 1 : 0.8, transition: { duration: 0.15 } }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 onMouseEnter={() => setActiveFeature(feature.id)}
@@ -157,8 +157,8 @@ function Features() {
                 className={`flex flex-col items-start cursor-pointer ${activeFeature === feature.id ? 'scale-105' : ''}`}
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                whileHover={{ opacity: 1, scale: 1.05 }}
-                animate={{ opacity: activeFeature === feature.id ? 1 : 0.8 }}
+                whileHover={{ opacity: 1, scale: 1.05, transition: { duration: 0.15 } }}
+                animate={{ opacity: activeFeature === feature.id ? 1 : 0.8, transition: { duration: 0.15 } }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 onMouseEnter={() => setActiveFeature(feature.id)}
