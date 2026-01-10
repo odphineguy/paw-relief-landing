@@ -106,7 +106,7 @@ function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Paw Relief. All rights reserved.
+            © 2026 Paw Relief. All rights reserved.
           </p>
         </div>
       </div>

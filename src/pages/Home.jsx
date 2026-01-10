@@ -33,7 +33,7 @@ function Home() {
                 href="#pricing" 
                 className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all hover:shadow-2xl transform hover:-translate-y-1 text-center"
               >
-                Start Free 7-Day Trial
+                Get Started Free
               </a>
               <a 
                 href="#features" 

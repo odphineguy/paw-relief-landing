@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'Can I track multiple pets?',
-    answer: 'Yes! The Standard plan allows you to track up to 2 pets, while the Premium plan supports unlimited pets. Each pet has its own profile with individualized tracking and insights.'
+    answer: 'Yes! The Free plan allows you to track 1 pet, while the Premium plan ($9.99/month) supports up to 4 pets. Each pet has its own profile with individualized tracking and insights.'
   },
   {
     question: 'How accurate are the AI insights?',
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'How much does Paw Relief cost?',
-    answer: 'We offer a 7-day free trial with full access to all features. After that, you can choose the Standard plan ($9.99/month) or Premium plan ($19.99/month). No credit card required for the trial.'
+    answer: 'Paw Relief offers a Free plan with basic features for 1 pet, or Premium ($9.99/month) which includes up to 4 pets, AI-powered insights & reports, and shareable Vet reports.'
   }
 ];
 
