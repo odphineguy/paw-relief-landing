@@ -29,7 +29,7 @@ export function Marquee({ children, className = '', pauseOnHover = false, repeat
       const clone = firstChild.cloneNode(true);
       marquee.appendChild(clone);
     }
-  }, [repeat, children]);
+  }, [repeat]);
 
   const handleMouseEnter = () => {
     if (pauseOnHover) setIsPaused(true);

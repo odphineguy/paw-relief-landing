@@ -106,7 +106,7 @@ function Features() {
           <div className="hidden lg:block w-full lg:w-1/3 space-y-12 lg:pr-8 z-10">
             {features.slice(0, 3).map((feature, index) => (
               <motion.div
-                key={index}
+                key={feature.id}
                 className={`flex flex-col items-end text-right cursor-pointer ${activeFeature === feature.id ? 'scale-105' : ''}`}
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -153,7 +153,7 @@ function Features() {
           <div className="hidden lg:block w-full lg:w-1/3 space-y-12 lg:pl-8 z-10">
             {features.slice(3).map((feature, index) => (
               <motion.div
-                key={index + 3}
+                key={feature.id}
                 className={`flex flex-col items-start cursor-pointer ${activeFeature === feature.id ? 'scale-105' : ''}`}
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -182,8 +182,8 @@ function Features() {
         <div className="block lg:hidden mt-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {features.map((feature, index) => (
-              <motion.div 
-                key={index}
+              <motion.div
+                key={feature.id}
                 className={`flex flex-col items-center text-center cursor-pointer transition-all duration-300 p-6 rounded-xl ${activeFeature === feature.id ? 'bg-blue-50 scale-105' : 'bg-gray-50 opacity-80 hover:opacity-100'}`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
