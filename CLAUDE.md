@@ -21,10 +21,11 @@ npm run preview
 
 ## Architecture
 
-### Single-Page App Structure
-- **No routing**: This is a single-page app using hash-based anchor navigation (`#home`, `#features`, etc.)
-- **ScrollToAnchor**: Component handles smooth scrolling to hash anchors
-- **Navigation**: Uses regular `<a href="#section">` links, NOT React Router
+### App Structure
+- **React Router**: Uses `react-router-dom` for page routing (`/`, `/privacy`, `/support`)
+- **Hash anchors**: Within the landing page, uses hash-based anchor navigation (`#home`, `#features`, etc.)
+- **ScrollToAnchor**: Component handles smooth scrolling to hash anchors on the landing page
+- **Navigation**: Uses `<a href="#section">` links for in-page navigation, `<Link>` for routes
 
 ### Component Organization
 ```
@@ -56,7 +57,7 @@ src/
 
 ### Key Components
 
-**App.jsx**: Renders all sections in order as a single-page layout. No routing logic.
+**App.jsx**: Main app with React Router. Routes include `/` (landing page), `/privacy`, and `/support`.
 
 **ScrollToAnchor**: Utility component that:
 - Listens to hash changes in URL

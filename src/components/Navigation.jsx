@@ -29,9 +29,10 @@ function Navigation() {
         </a>
         
         {/* Mobile Menu Button */}
-        <button 
-          className="md:hidden focus:outline-none" 
+        <button
+          className="md:hidden focus:outline-none"
           aria-label="Toggle menu"
+          aria-expanded={isMenuOpen}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

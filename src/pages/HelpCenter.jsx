@@ -91,8 +91,8 @@ function HelpCenter() {
         </motion.div>
 
         <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-8">
-          {faqs.map((faq, index) => (
-            <FaqItem key={index} faq={faq} />
+          {faqs.map((faq) => (
+            <FaqItem key={faq.question} faq={faq} />
           ))}
         </div>
 

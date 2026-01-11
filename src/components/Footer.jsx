@@ -52,9 +52,9 @@ function Footer() {
               Track, manage, and understand your pet's allergies with AI-powered insights.
             </p>
             <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
+              {socialLinks.map((social) => (
                 <a
-                  key={index}
+                  key={social.name}
                   href={social.href}
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                   aria-label={social.name}
@@ -80,8 +80,8 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
-              {footerLinks.map((link, index) => (
-                <li key={index}>
+              {footerLinks.map((link) => (
+                <li key={link.name}>
                   {link.external ? (
                     <a
                       href={link.href}

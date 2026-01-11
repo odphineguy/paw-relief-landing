@@ -56,7 +56,7 @@ function Pricing() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {pricingPlans.map((plan, index) => (
             <motion.div
-              key={index}
+              key={plan.name}
               className={`bg-white rounded-3xl p-8 relative ${plan.highlighted ? 'ring-4 ring-yellow-400 scale-105' : ''}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
