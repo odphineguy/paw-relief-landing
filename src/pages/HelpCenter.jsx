@@ -20,7 +20,8 @@ const faqs = [
   },
   {
     question: 'Can I share reports with my vet?',
-    answer: 'Absolutely! Paw Relief generates professional, comprehensive reports that you can export in multiple formats (PDF, CSV) and share directly with your veterinarian via email.'
+    answer: 'Absolutely! Paw Relief generates professional, comprehensive reports that you can export in multiple formats (PDF, CSV) and share directly with your veterinarian via email.',
+    link: { href: '/uploads/sample-vet-report.pdf', label: 'View a sample vet report' }
   },
   {
     question: 'What environmental data does the app track?',
@@ -68,6 +69,16 @@ function FaqItem({ faq }) {
         className="overflow-hidden"
       >
         <p className="text-gray-600 mt-4 leading-relaxed">{faq.answer}</p>
+        {faq.link && (
+          <a
+            href={faq.link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-blue-600 text-sm font-medium hover:text-blue-700 transition-colors"
+          >
+            {faq.link.label} &rarr;
+          </a>
+        )}
       </motion.div>
     </motion.div>
   );
