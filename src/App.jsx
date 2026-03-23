@@ -3,6 +3,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Home from '@/pages/Home';
 import Features from '@/pages/Features';
+import Screenshots from '@/pages/Screenshots';
 import HelpCenter from '@/pages/HelpCenter';
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
 import TermsOfService from '@/pages/TermsOfService';
@@ -19,6 +20,7 @@ function LandingPage() {
       <Home />
       <StatsSection />
       <Features />
+      <Screenshots />
       <Pricing />
       <HelpCenter />
       <DownloadSection />

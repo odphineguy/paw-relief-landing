@@ -13,9 +13,10 @@ function Home() {
       </div>
       
       <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col lg:flex-row items-center">
+          {/* Left Content */}
           <motion.div
-            className="w-full max-w-2xl z-10"
+            className="w-full lg:w-1/2 lg:pr-16 mb-12 lg:mb-0 z-10"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -61,6 +62,26 @@ function Home() {
             </div>
           </motion.div>
 
+          {/* Right Content - Phone Mockup */}
+          <motion.div
+            className="w-full lg:w-1/2 z-10"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <div className="relative mx-auto flex justify-center">
+              <div className="relative" style={{ maxWidth: '500px' }}>
+                <img
+                  src="/uploads/apple-iphone-15-black-mockup/screenshot-1-portrait.png"
+                  alt="Paw Relief App Dashboard"
+                  className="w-full h-auto max-w-sm mx-auto drop-shadow-2xl rounded-3xl transform hover:scale-105 transition-transform duration-300"
+                  style={{
+                    filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.3))'
+                  }}
+                />
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
