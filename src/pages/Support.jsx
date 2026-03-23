@@ -73,7 +73,7 @@ function Support() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">App Information</h2>
               <ul className="text-gray-600 space-y-2">
                 <li><strong>App Name:</strong> Paw Relief</li>
-                <li><strong>Developer:</strong> Paw Relief Team</li>
+                <li><strong>Developer:</strong> Abe Perez</li>
                 <li><strong>Support Email:</strong> support@pawrelief.app</li>
               </ul>
             </div>

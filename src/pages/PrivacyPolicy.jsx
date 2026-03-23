@@ -54,12 +54,6 @@ function PrivacyPolicy() {
                 <li>Veterinarian information</li>
               </ul>
 
-              <p className="font-semibold text-gray-900">Food & Product Data</p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>Barcode scans and product information</li>
-                <li>Ingredient lists from scanned products</li>
-              </ul>
-
               <p className="font-semibold text-gray-900">Location Data</p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Approximate location (used only for local allergen and air quality alerts)</li>
@@ -102,7 +96,6 @@ function PrivacyPolicy() {
               <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Supabase</strong> — database and authentication</li>
                 <li><strong>Google Gemini API</strong> — AI-powered insights and analysis of pet health data. Your pet's symptom and allergy data may be sent to Google's servers for processing. Google's privacy policy applies to this processing.</li>
-                <li><strong>Open Food Facts</strong> — product/ingredient database for barcode scanning</li>
                 <li><strong>Open-Meteo</strong> — weather and air quality data</li>
               </ul>
 

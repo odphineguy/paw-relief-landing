@@ -7,10 +7,6 @@ const faqs = [
     answer: 'Paw Relief is a comprehensive pet allergy tracking app that helps you identify triggers, manage symptoms, and make better decisions for your pet\'s health. We use AI to analyze patterns and provide actionable insights.'
   },
   {
-    question: 'How does the barcode scanner work?',
-    answer: 'Simply scan the barcode on any pet food or product, and Paw Relief will instantly show you the ingredients. If any ingredients match your pet\'s known allergens, you\'ll receive an alert before making a purchase.'
-  },
-  {
     question: 'Can I track multiple pets?',
     answer: 'Yes! The Free plan allows you to track 2 pets, while the Premium plan ($9.99/month) supports up to 8 pets. Each pet has its own profile with individualized tracking and insights.'
   },
@@ -20,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Can I share reports with my vet?',
-    answer: 'Absolutely! Paw Relief generates professional, comprehensive reports that you can export in multiple formats (PDF, CSV) and share directly with your veterinarian via email.',
+    answer: 'Absolutely! Paw Relief generates professional, comprehensive reports that you can export as PDF and share directly with your veterinarian via email.',
     link: { href: '/uploads/sample-vet-report.pdf', label: 'View a sample vet report' }
   },
   {
