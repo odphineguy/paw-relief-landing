@@ -50,8 +50,8 @@ function Screenshots() {
 
           <Marquee className="py-6" pauseOnHover={true} repeat={3}>
             {screenshots.map((screenshot) => (
-              <div key={screenshot.title} className="mx-4 inline-block">
-                <div className="w-full h-[520px] bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+              <div key={screenshot.title} className="mx-3 sm:mx-4 inline-block">
+                <div className="w-[220px] h-[440px] sm:w-[260px] sm:h-[520px] bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
                   <img
                     src={screenshot.image}
                     alt={screenshot.title}
