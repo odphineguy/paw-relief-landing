@@ -13,10 +13,9 @@ function Home() {
       </div>
       
       <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col lg:flex-row items-center">
-          {/* Left Content */}
-          <motion.div 
-            className="w-full lg:w-1/2 lg:pr-16 mb-12 lg:mb-0 z-10"
+        <div className="flex flex-col items-center text-center">
+          <motion.div
+            className="w-full max-w-2xl z-10"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -25,16 +24,13 @@ function Home() {
               Uncover Your Pet's Allergy Triggers
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-lg leading-relaxed">
-              Track symptoms, identify triggers, and manage your pet's allergies better with AI-powered insights, barcode scanning, and vet-ready reports.
+              Track symptoms, identify triggers, and manage your pet's allergies better with AI-powered insights and vet-ready reports.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <a 
-                href="#pricing" 
-                className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all hover:shadow-2xl transform hover:-translate-y-1 text-center"
-              >
-                Get Started Free
-              </a>
+              <span className="bg-white/80 text-blue-600 px-8 py-4 rounded-full font-semibold text-center cursor-default">
+                Coming Soon
+              </span>
               <a 
                 href="#features" 
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-all hover:shadow-2xl transform hover:-translate-y-1 text-center"
@@ -65,27 +61,6 @@ function Home() {
             </div>
           </motion.div>
 
-          {/* Right Content - Phone Mockup */}
-          <motion.div 
-            className="w-full lg:w-1/2 z-10"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <div className="relative mx-auto flex justify-center">
-              {/* Phone Display */}
-              <div className="relative" style={{ maxWidth: '500px' }}>
-                <img 
-                  src="/uploads/screenshot-portrait.png" 
-                  alt="Paw Relief App Dashboard" 
-                  className="w-full h-auto max-w-sm mx-auto drop-shadow-2xl rounded-3xl transform hover:scale-105 transition-transform duration-300"
-                  style={{ 
-                    filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.3))'
-                  }}
-                />
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>

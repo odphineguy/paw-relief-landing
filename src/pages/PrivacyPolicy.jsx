@@ -25,7 +25,7 @@ function PrivacyPolicy() {
           </h1>
 
           <div className="prose prose-lg max-w-none text-gray-600">
-            <p className="text-gray-500 mb-8">Last updated: January 2026</p>
+            <p className="text-gray-500 mb-8">Last updated: March 2026</p>
 
             <div className="bg-white rounded-xl p-8 shadow-sm space-y-6">
               <p>
@@ -101,7 +101,7 @@ function PrivacyPolicy() {
               <p>The app uses the following third-party services:</p>
               <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Supabase</strong> — database and authentication</li>
-                <li><strong>Expo</strong> — app development platform and analytics</li>
+                <li><strong>Google Gemini API</strong> — AI-powered insights and analysis of pet health data. Your pet's symptom and allergy data may be sent to Google's servers for processing. Google's privacy policy applies to this processing.</li>
                 <li><strong>Open Food Facts</strong> — product/ingredient database for barcode scanning</li>
                 <li><strong>Open-Meteo</strong> — weather and air quality data</li>
               </ul>

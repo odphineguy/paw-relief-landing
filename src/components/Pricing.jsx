@@ -9,9 +9,9 @@ function Pricing() {
       period: 'forever',
       description: 'Get started with the basics',
       features: [
-        'Track 1 pet',
+        'Track 2 pets',
         'Symptom tracking',
-        'Barcode scanner',
+        'Shareable Vet reports',
         'Smart alerts & reminders',
         'Environmental alerts'
       ],
@@ -24,7 +24,7 @@ function Pricing() {
       period: 'per month',
       description: 'Unlock the full experience',
       features: [
-        'Track up to 4 pets',
+        'Track up to 8 pets',
         'Everything in Free',
         'AI-powered insights & reports',
         'Shareable Vet reports',

@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'Can I track multiple pets?',
-    answer: 'Yes! The Free plan allows you to track 1 pet, while the Premium plan ($9.99/month) supports up to 4 pets. Each pet has its own profile with individualized tracking and insights.'
+    answer: 'Yes! The Free plan allows you to track 2 pets, while the Premium plan ($9.99/month) supports up to 8 pets. Each pet has its own profile with individualized tracking and insights.'
   },
   {
     question: 'How accurate are the AI insights?',
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'How much does Paw Relief cost?',
-    answer: 'Paw Relief offers a Free plan with basic features for 1 pet, or Premium ($9.99/month) which includes up to 4 pets, AI-powered insights & reports, and shareable Vet reports.'
+    answer: 'Paw Relief offers a Free plan with basic features for 2 pets, or Premium ($9.99/month) which includes up to 8 pets, AI-powered insights & reports, and shareable Vet reports.'
   }
 ];
 
@@ -105,7 +105,7 @@ function HelpCenter() {
         >
           <p className="text-gray-600 mb-4">Still have questions?</p>
           <a 
-            href="mailto:support@pawrelief.com" 
+            href="mailto:support@pawrelief.app" 
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all hover:shadow-lg transform hover:-translate-y-0.5"
           >
             Contact Support

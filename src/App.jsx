@@ -3,14 +3,13 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Home from '@/pages/Home';
 import Features from '@/pages/Features';
-import Screenshots from '@/pages/Screenshots';
 import HelpCenter from '@/pages/HelpCenter';
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
+import TermsOfService from '@/pages/TermsOfService';
 import Support from '@/pages/Support';
 import ScrollToAnchor from '@/components/ScrollToAnchor';
 import DownloadSection from '@/components/DownloadSection';
 import StatsSection from '@/components/StatsSection';
-import Testimonials from '@/components/Testimonials';
 import Pricing from '@/components/Pricing';
 
 function LandingPage() {
@@ -20,9 +19,7 @@ function LandingPage() {
       <Home />
       <StatsSection />
       <Features />
-      <Screenshots />
       <Pricing />
-      <Testimonials />
       <HelpCenter />
       <DownloadSection />
     </>
@@ -37,6 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
           <Route path="/support" element={<Support />} />
         </Routes>
       </main>

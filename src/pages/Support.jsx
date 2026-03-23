@@ -29,13 +29,13 @@ function Support() {
                 Have questions or need help with Paw Relief? We're here to assist you.
               </p>
               <a
-                href="mailto:support@pawrelief.com"
+                href="mailto:support@pawrelief.app"
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                support@pawrelief.com
+                support@pawrelief.app
               </a>
             </div>
 
@@ -59,8 +59,8 @@ function Support() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Account Deletion</h2>
               <p className="text-gray-600 mb-4">
                 To request deletion of your account and associated data, please email us at{' '}
-                <a href="mailto:support@pawrelief.com" className="text-blue-600 hover:text-blue-700">
-                  support@pawrelief.com
+                <a href="mailto:support@pawrelief.app" className="text-blue-600 hover:text-blue-700">
+                  support@pawrelief.app
                 </a>
                 {' '}with the subject line "Account Deletion Request".
               </p>
@@ -74,7 +74,7 @@ function Support() {
               <ul className="text-gray-600 space-y-2">
                 <li><strong>App Name:</strong> Paw Relief</li>
                 <li><strong>Developer:</strong> Paw Relief Team</li>
-                <li><strong>Support Email:</strong> support@pawrelief.com</li>
+                <li><strong>Support Email:</strong> support@pawrelief.app</li>
               </ul>
             </div>
           </div>
