@@ -12,11 +12,11 @@ function Home() {
         <div className="absolute top-1/2 left-1/3 w-32 h-32 rounded-full bg-white/5 animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
       
-      <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col lg:flex-row items-center">
+      <div className="container mx-auto px-6 lg:px-16 py-16">
+        <div className="flex flex-col lg:flex-row items-center justify-center">
           {/* Left Content */}
           <motion.div
-            className="w-full lg:w-1/2 lg:pr-16 mb-12 lg:mb-0 z-10"
+            className="w-full lg:w-1/2 lg:pr-20 mb-12 lg:mb-0 z-10"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
